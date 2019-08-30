@@ -70,6 +70,7 @@ clear
  cd DarkCurut08
 chmod +x Moreno77.sh
 sh Moreno77.sh
+clear
 fi
 
 if [ $pil = 3 ]
@@ -86,6 +87,7 @@ clear
 git clone https://github.com/Senitopeng/fbbrute
 cd fbbrute
 python2 jomblo.py
+clear
 fi
 
 if [ $pil = 5 ]
@@ -95,6 +97,7 @@ https://github.com/pirmansx/mbf
 pip2 install mechanize
 cd mbf
 python2 mbf.py
+clear
 fi
 
 if [ $pil = 6 ]
@@ -108,11 +111,6 @@ fi
 
 if [ $pil = 7 ]
 then
- pkg update && pkg upgrade
- pkg install python2
- pip2 install requests
-pip2 install mechanize
- pkg install git
  git clone https://github.com/ARIYA-CYBER/NEW
  cd NEW
  python2 NEW.py
@@ -127,6 +125,7 @@ then
  node index.js
  git clone https://github.com/ccocot/Instagram-Private-Tools.git
  npm install
+clear
  fi
  
  if [ $pil = 9 ]
@@ -134,20 +133,16 @@ then
  git clone https://github.com/Senitopeng/BotFbBangDjon.git
  cd BotFbBangDjon
  python2 bangdjon.py
+clear
  fi
  
  if [ $pil = 10 ]
  then
- apt update
-apt upgrade
-apt install git
 git clone https://github.com/esc0rtd3w/wifi-hacker
-ls
 cd wifi-hacker
-ls
 chmod +x wifi-hacker.sh
-ls
 ./wifi-hacker.sh
+clear
 fi
 
 if [ $pil = 11 ]
@@ -161,6 +156,7 @@ then
  cd sdcard
  mkdir webdav
 cd webdav
+clear
 fi
 
 if [ $pil = 12 ]
@@ -171,28 +167,20 @@ then
  cd RED_HAWK
  chmod +x rhawk.php
  apt install php
- ls
  php rhawk.php
+clear
  fi
  
  if [ $pil = 13 ]
  then
-apt update
- apt upgrade
- pkg install git
- pkg install python2
  git clone https://github.com/4L13199/LITEDDOS
  cd LITEDDOS
 python2 liteDDOS.py
+clear
 fi
 
 if [ $pil = 14 ]
 then
-pkg install update
-pkg install git
-pkg install toilet
-pkg install figlet
-pip2 install lolcat
 git clone https://github.com/DarknessCyberTeam/B4J1N64Nv5
 cd B4J1N64Nv5
 sh B4J1N64N.sh
@@ -200,14 +188,11 @@ fi
 
 if [ $pil = 15 ]
 then
-pkg upgrade
-pkg update
-pkg install git
-pkg install python
 git clone https://github.com/albertoanggi/xl-py
 pip install -r requirements.txt
 chmod +x app.py
 python/python2 app.py
+clear
 fi
 
 if [ $pil = 16 ]
